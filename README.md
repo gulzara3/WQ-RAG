@@ -1,4 +1,4 @@
-# WQ-RAG — AI-Enabled Root-Cause Diagnosis of Water Quality Anomalies
+# WQ-RAG: AI-enabled root-cause diagnosis of water quality anomalies in continuous monitoring networks using a retrieval-augmented generation (RAG) approach
 
 Reference implementation for
 
