@@ -1,0 +1,12 @@
+STATION: USGS 14211010 Clackamas River near Oregon City, OR
+REGION: Pacific Northwest. Cascade volcanic geology; drinking-water source for several
+utilities (Clackamas River Water Providers).
+HYDROLOGY: Snowmelt/rain-fed; low-variance, low-conductivity; cold-water salmonid habitat.
+LAND USE & STRESSORS: Forested upper basin; 2020 Riverside Fire burned ~138,000 acres ->
+post-wildfire sediment mobilisation and turbidity spikes during Dec-Mar storms;
+suburban development in lower basin.
+BASELINE CHEMISTRY: SC 30-65 uS/cm (lowest of four); pH 7.0-8.2; DO 9-14 mg/L; T 3-20 C;
+turbidity 1-10 FNU (storm peaks > 200 FNU).
+TYPICAL ANOMALIES: storm turbidity with concurrent SC perturbation and DO dip.
+REGULATORY CONTEXT: EPA NPDWR (turbidity, SWTR); Oregon DEQ OAR 340-041 — temperature
+18 C (7-DADM) and DO >= 8.0 mg/L for salmon/trout rearing; source-water protection.

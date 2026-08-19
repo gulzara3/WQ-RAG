@@ -1,0 +1,56 @@
+COMPREHENSIVE WATER QUALITY REGULATORY THRESHOLDS REFERENCE
+(Consolidated for the WQ-RAG knowledge base; values from EPA NPDWR 40 CFR 141,
+EPA Secondary Standards 40 CFR 143, WHO GDWQ 4th ed., EPA Aquatic Life Criteria,
+Oregon OAR 340-041, California CVRWQCB Basin Plan, NMFS criteria.)
+
+TURBIDITY
+- EPA NPDWR (Surface Water Treatment Rules): filtered systems must keep combined filter
+  effluent turbidity <= 0.3 NTU in 95% of monthly samples and never > 1 NTU
+  (conventional/direct filtration); treatment technique requirement.
+- WHO GDWQ: ideally < 1 NTU for effective disinfection; < 0.1 NTU preferred.
+- Operational guidance: > 5 NTU visible; > 50 NTU severe turbidity event.
+- Source-water context: storm-driven spikes of > 100 FNU are common in fire-affected
+  catchments (Clackamas) and agricultural watersheds (Sacramento, White).
+
+pH
+- EPA Secondary Standard (40 CFR 143): 6.5 - 8.5 (aesthetic / corrosion control).
+- WHO GDWQ: no health-based value; 6.5 - 8.5 operational range.
+- EPA Aquatic Life criteria (freshwater): 6.5 - 9.0.
+- < 6.5 corrosion / Lead and Copper Rule concern; > 9.0 aquatic toxicity (ammonia);
+  > 11.0 emergency response.
+
+DISSOLVED OXYGEN (DO)
+- EPA freshwater aquatic life (warm water): >= 5.0 mg/L; cold water / salmonid: >= 6.5 mg/L
+  (7-day mean minimum), early life stages higher.
+- Oregon DEQ OAR 340-041 (salmon & trout rearing, Clackamas): >= 8.0 mg/L.
+- California CVRWQCB Basin Plan (Sacramento River): >= 7.0 mg/L.
+- < 4.0 mg/L hypoxic stress; < 2.0 mg/L anoxic; no drinking-water MCL.
+- Saturation is temperature-dependent: 14.6 mg/L at 0 C, 9.1 mg/L at 20 C, 7.6 mg/L at 30 C.
+  Readings > 150% saturation suggest algal supersaturation (check pH) or sensor fault.
+
+SPECIFIC CONDUCTANCE (SC) / CONDUCTIVITY
+- No EPA primary MCL. EPA Secondary TDS standard 500 mg/L (approx. 800 uS/cm).
+- WHO: TDS 600 mg/L desirable, 1000 mg/L maximum acceptable.
+- Station baselines: Potomac 200-600 uS/cm; White River 400-1200 uS/cm;
+  Clackamas 30-65 uS/cm; Sacramento 100-300 uS/cm (tidal excursions higher).
+- Causes of excursions: road-salt runoff, tidal intrusion, agricultural return flows,
+  wastewater discharge, brine spills.
+
+TEMPERATURE
+- No federal drinking-water MCL. EPA aquatic-life criteria are site-specific.
+- Oregon DEQ OAR 340-041: 18.0 C (7-day average daily max) for salmon/trout rearing
+  (Clackamas); 13.0 C for spawning periods.
+- NMFS / CVRWQCB: 13.3 C (56 F) daily average for Sacramento River winter-run Chinook.
+- General: > 20 C cold-water stress; > 32 C warm-water upper limit.
+- Physical plausibility: US rivers essentially never exceed 35 C; readings > 40 C
+  indicate sensor exposure or thermistor fault.
+
+SENSOR ARTEFACT SCREENING (USGS TM 1-D3)
+- Sentinel -999999; out-of-bounds values; flat-lines; spikes in a single parameter with
+  no covariate response; compare against saturation (DO vs T) and pH-DO coherence.
+
+REGULATORY AUTHORITIES BY STATION
+- Potomac (DC): EPA Region 3; DC DOEE; DCMR Title 21.
+- White River (IN): EPA Region 5; IDEM; 327 IAC 2-1.
+- Clackamas (OR): EPA Region 10; Oregon DEQ; OAR 340-041; Clackamas River Water Providers.
+- Sacramento (CA): EPA Region 9; SWRCB / CVRWQCB Basin Plan; NMFS (ESA).

@@ -1,0 +1,6 @@
+Station,station_id,n,Completeness_mean,Completeness_sd,Regulatory Accuracy_mean,Regulatory Accuracy_sd,Actionability_mean,Actionability_sd,Overall_mean,Overall_sd
+"Potomac River, DC",01646500,50,1.000,0.000,0.684,0.210,0.810,0.108,0.831,0.082
+"White River, IN",03351000,50,0.996,0.028,0.776,0.149,0.795,0.097,0.856,0.061
+"Clackamas River, OR",14211010,50,1.000,0.000,0.752,0.192,0.785,0.088,0.846,0.071
+"Sacramento River, CA",11447650,50,1.000,0.000,0.848,0.161,0.785,0.105,0.878,0.055
+Cross-station mean,all,200,0.999,0.002,0.765,0.059,0.794,0.010,0.853,0.017

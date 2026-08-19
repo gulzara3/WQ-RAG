@@ -1,0 +1,31 @@
+# WQ-RAG — pinned minimum versions (Python >= 3.10; developed on 3.12)
+
+# Core
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.3
+torch>=2.1
+requests>=2.31
+tqdm>=4.66
+
+# Figures
+matplotlib>=3.8
+# cartopy is OPTIONAL (Fig. 1 basemap). Install via conda if pip fails:
+#   conda install -c conda-forge cartopy
+# cartopy>=0.22
+
+# RAG / LLM (Stages III-IV)
+langchain>=0.3
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+langchain-chroma>=0.2
+langchain-huggingface>=0.1
+langchain-ollama>=0.2
+chromadb>=0.5
+sentence-transformers>=3.0
+pypdf>=4.0
+
+# Dev
+pytest>=8.0

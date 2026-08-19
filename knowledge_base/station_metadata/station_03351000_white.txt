@@ -1,0 +1,10 @@
+STATION: USGS 03351000 White River, Indiana (central Indiana, Indianapolis area)
+REGION: Midwest. Agricultural and urban mixed watershed on glacial-till soils.
+HYDROLOGY: Flashy response to rainfall; high variance; winter ice effects.
+LAND USE & STRESSORS: Row-crop agriculture (corn/soy) with tile drainage -> nutrient and
+sediment loads; urban runoff and wastewater discharges; road salt.
+BASELINE CHEMISTRY: SC 400-1200 uS/cm (highest of the four stations); pH 7.5-8.8;
+DO 5-15 mg/L; T 0-30 C; turbidity 5-100 FNU.
+TYPICAL ANOMALIES: agricultural runoff turbidity, SC drops during dilution events,
+summer DO depressions, temperature extremes.
+REGULATORY CONTEXT: EPA NPDWR / Secondary; Indiana 327 IAC 2-1 water-quality standards (IDEM).

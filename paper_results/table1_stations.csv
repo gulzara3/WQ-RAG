@@ -1,0 +1,5 @@
+USGS_ID,Station,Region,Raw_Rows,Clean_Rows,SC_range_uScm
+01646500,"Potomac River, DC",East Coast,139523,134391,200-600
+03351000,"White River, IN",Midwest,139584,114702,"400-1,200"
+14211010,"Clackamas River, OR",Pacific NW,139851,~135000,30-65
+11447650,"Sacramento River, CA",West Coast,140240,~138000,100-300

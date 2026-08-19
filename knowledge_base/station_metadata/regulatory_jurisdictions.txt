@@ -1,0 +1,12 @@
+REGULATORY CROSS-WALK (applied per station in WQ-RAG)
+
+FEDERAL (all stations): EPA NPDWR 40 CFR 141 (turbidity treatment technique, MCLs);
+EPA Secondary Standards 40 CFR 143 (pH 6.5-8.5, TDS 500 mg/L); WHO GDWQ 4th ed.;
+EPA Aquatic Life Criteria (DO, pH 6.5-9.0, temperature site-specific); SDWA reporting.
+
+POTOMAC (DC): DC DCMR Title 21, Chapter 11 water-quality standards; Washington Aqueduct
+source-water protection.
+WHITE RIVER (IN): Indiana 327 IAC 2-1 (IDEM) surface-water quality standards.
+CLACKAMAS (OR): Oregon OAR 340-041 (DEQ) — temperature 18 C, DO 8.0 mg/L salmonid criteria.
+SACRAMENTO (CA): CVRWQCB Central Valley Basin Plan; NMFS winter-run Chinook 13.3 C;
+SWRCB Bay-Delta Plan salinity objectives.

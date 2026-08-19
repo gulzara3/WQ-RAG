@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data & artefacts (large / regenerated)
+data/raw/*.csv
+data/processed/
+chroma_db/
+results/
+!results/.gitkeep
+
+# Knowledge-base PDFs (copyrighted; see knowledge_base/MANIFEST.md)
+knowledge_base/**/*.pdf
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

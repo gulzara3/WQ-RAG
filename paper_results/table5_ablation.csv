@@ -1,0 +1,5 @@
+Configuration,Completeness,Regulatory Accuracy,Actionability,Overall,n
+Full Pipeline,1.00,0.76,0.75,0.84,5
+LLM Only,1.00,0.20,0.90,0.70,5
+LLM + RAG,0.80,0.40,0.70,0.63,5
+LLM + Context,1.00,0.20,0.60,0.60,5

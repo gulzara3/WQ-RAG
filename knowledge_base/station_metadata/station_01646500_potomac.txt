@@ -1,0 +1,11 @@
+STATION: USGS 01646500 Potomac River near Washington, DC (Little Falls Pump Station)
+REGION: Mid-Atlantic / East Coast. Drinking-water intake for Washington Aqueduct.
+HYDROLOGY: Large regulated river; spring freshets; summer low flow; occasional tidal
+influence downstream of the station.
+LAND USE & STRESSORS: Urban and suburban; combined sewer overflows (CSOs) after storms
+raise turbidity and depress DO; road-salt pulses raise SC in winter; summer algal
+blooms raise daytime pH and DO.
+BASELINE CHEMISTRY: SC 200-600 uS/cm; pH 7.5-8.5; DO 6-14 mg/L; T 1-30 C; turbidity 2-50 FNU.
+TYPICAL ANOMALIES: storm turbidity spikes (> 100 FNU), CSO-driven DO sags, winter SC spikes.
+REGULATORY CONTEXT: EPA NPDWR / Secondary Standards; DC DCMR Title 21 water-quality standards;
+Safe Drinking Water Act source-water protection.

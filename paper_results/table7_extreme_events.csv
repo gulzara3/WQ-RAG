@@ -1,0 +1,6 @@
+Station,Events,Dominant Parameter,Max |z|,Mean |z|,Median |z|
+"Potomac River, DC",35,"Turbidity (10), DO (9)",8.1,5.5,5.3
+"White River, IN",10,"Temperature (3), Turbidity (3)",7.0,5.0,4.8
+"Sacramento River, CA",147,"Turbidity (62), SC (53)",24.2,6.6,5.2
+"Clackamas River, OR",65,"Turbidity (45), DO (8)",12.4,6.3,5.6
+Total,257,,24.2,6.1,5.3

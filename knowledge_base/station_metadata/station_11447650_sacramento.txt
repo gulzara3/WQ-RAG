@@ -1,0 +1,12 @@
+STATION: USGS 11447650 Sacramento River at Freeport, CA
+REGION: West Coast / Central Valley; Sacramento-San Joaquin Delta tidal influence.
+HYDROLOGY: Regulated by upstream reservoirs; tidal excursions at Freeport; agricultural
+return flows; winter storm turbidity.
+LAND USE & STRESSORS: Intensive irrigated agriculture (rice, orchards), urban Sacramento
+discharges, tidal salinity intrusion raising SC, algal blooms.
+BASELINE CHEMISTRY: SC 100-300 uS/cm; pH 7.2-8.2; DO 7-12 mg/L; T 7-23 C; turbidity 5-60 FNU.
+TYPICAL ANOMALIES: tidal SC excursions, storm turbidity (> 24 sigma observed), agricultural
+runoff events.
+REGULATORY CONTEXT: EPA NPDWR / Secondary; California CVRWQCB Central Valley Basin Plan
+(DO >= 7.0 mg/L); NMFS temperature criteria 13.3 C for winter-run Chinook salmon
+(Long-Term Operations Biological Opinion); SWRCB Bay-Delta Plan.

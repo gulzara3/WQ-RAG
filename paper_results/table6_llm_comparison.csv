@@ -1,0 +1,5 @@
+LLM,Completeness_mean,Completeness_sd,Regulatory Accuracy_mean,Regulatory Accuracy_sd,Actionability_mean,Actionability_sd,Overall_mean,Overall_sd,words_mean,words_sd,n
+llama3:8b,1.000,0.000,0.676,0.193,0.790,0.093,0.822,0.065,238,36,50
+mistral:7b,1.000,0.000,0.584,0.221,0.640,0.197,0.741,0.100,238,38,50
+Δ (llama3:8b − mistral:7b),0.000,,0.092,,0.150,,0.081,,,,50
+Cohen's d,,,0.443,,0.976,,0.958,,,,50
