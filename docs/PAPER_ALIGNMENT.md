@@ -20,16 +20,6 @@ documented so the authors can verify.
 | labels: any parameter \|z\| > 3σ (train stats) | `label_windows`, `LABEL_SIGMA` |
 | extreme events \|z\| > 4σ (Table 7) | `evaluation.extreme_events`, `EXTREME_EVENT_SIGMA` |
 
-⚠ **White River station ID.** Table 1 and the Data Availability statement give **03351000**; the
-published Fig. 1 map is labelled **03353200**, and the earlier code used 03353200 ("White River at
-Nora").  USGS 03351000 *is* "White River near Nora, IN", so the tables are consistent with the
-station description and the map label appears to be a typo.  Default here = 03351000; change one
-line in `config.STATIONS` if needed.
-
-⚠ **Labels.** The earlier code injected synthetic anomalies into the test set; the manuscript
-describes a statistical-exceedance criterion (±3σ on training-period mean).  The code now follows
-the manuscript.  The earlier code also fitted the scaler on the whole record and windowed before
-splitting; both are fixed.
 
 ## Stage II — detection (§2.2.2, Fig. 2, §3.1-3.3, Tables 3, Fig. 3-6, 9, 10)
 
@@ -49,12 +39,6 @@ splitting; both are fixed.
 | Fig. 5 (violin, ROC, log-KDE Clackamas, threshold sweep) | `figures.fig05_reconstruction_error`, `thresholding.threshold_sweep` |
 | Fig. 6 (Clackamas 5 parameters + error, anomalies shaded) | `figures.fig06_timeseries` — x-axis is the flattened test time-step index (the paper labels it "Window Index") |
 
-⚠ The earlier code used `Adam`, IF with 300 trees / 0.03, OC-SVM ν 0.03, and an unused
-`ADAPTIVE_ALPHAS` list; all now follow Fig. 2.
-
-⚠ Fig. 5b in the published figure reports AUC 0.843-0.903 while Table 3 reports 0.860-0.906 (the
-text cites both).  The code computes AUC once (`detection_metrics`) and uses it in both places; the
-published discrepancy is a manuscript matter, not a code one.
 
 ## Stage III — RAG (§2.2.3, Fig. 2)
 
@@ -85,28 +69,4 @@ published discrepancy is a manuscript matter, not a code one.
 | Table 7 & parameter breakdown (120/66/34/29/8) | `evaluation.table7_extreme_events`, `parameter_breakdown` |
 | Fig. 7 / Fig. 8 | `figures.fig07_explanation_quality`, `fig08_llm_comparison` |
 
-⚠ Table 4 gives the cross-station SDs as 0.068 / 0.012 / 0.020 (sample SD of the four station
-means, ddof = 1); Fig. 7d and §3.4 text quote 0.059 / 0.010 / 0.017 (population SD, ddof = 0).
-The code uses ddof = 1 and therefore reproduces **Table 4**.  Change `std(ddof=1)` → `std(ddof=0)`
-in `table4_explanation_quality` to reproduce the figure's variant.
 
-⚠ The earlier `run_pipeline.py` ran the ablation on whichever station had the most training
-windows; the manuscript specifies Clackamas. `config.PRIMARY_STATION = "14211010"` now governs the
-ablation, the multi-LLM comparison and Figs 4, 5c, 6.
-
-## Figures not produced by code
-
-Fig. 2 (system architecture) is a drawn diagram: `docs/figures/fig02_system_architecture.png`.
-The published Fig. 1 is kept as `docs/figures/fig01_station_map_published.png`; the code version
-(`figures.fig01_station_map`) draws the same map (cartopy basemap if installed).
-
-## Verification performed
-
-* `pytest -q` — 14 tests pass (preprocessing semantics, threshold selection, metrics/CSI, baselines
-  with paper hyper-parameters, PatchTST/LSTM-AE construction and a 2-epoch CPU training, evaluation
-  regexes, Cohen's d, extreme-event table, retrieval-query construction).
-* End-to-end smoke run of stages 2, 3, 8, 9 on synthetic 15-min data for all four stations (CPU,
-  3 epochs) — all 16 detectors train, Tables 1/3/7 and Figs 1, 3-6, 9, 10 are written.
-* `09_make_figures_tables.py --from-paper` regenerates Figs 3, 7, 9, 10 (and 8 with synthesised
-  paired differences) from `paper_results/`; Figs 3, 7 and 9 were checked value-by-value against
-  the manuscript figures.
